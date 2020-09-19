@@ -2,6 +2,6 @@
   "name": "proxy",
   "version": 2,
   "routes": [
-    {"src": "/v2ray/(.*)","dest": "https://v2ray-heroku-hubertlee.herokuapp.com/$1"}
+    {"src": "/(.*)","dest": "https://v2ray-heroku-hubertlee.herokuapp.com/$1"}
   ]
 }
